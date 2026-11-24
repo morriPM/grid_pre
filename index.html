@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>电网导出数据整理</title>
+<meta name="description" content="把供电所/电网的累计读数导出表转成逐区间电量与功率，一键导出 Excel">
+
+<!-- Open Graph：微信/飞书/Slack 等聊天软件抓这段来生成卡片 -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="电网导出数据整理">
+<meta property="og:description" content="把供电所/电网的累计读数导出表转成逐区间电量与功率，一键导出 Excel">
+<meta property="og:url" content="https://morriPM.github.io/grid_pre/">
+<meta property="og:image" content="https://morriPM.github.io/grid_pre/cover.png">
+<meta property="og:image:width" content="600">
+<meta property="og:image:height" content="600">
+
+<!-- 跳转目标：微信内置浏览器里点卡片进来时直达 app -->
+<meta http-equiv="refresh" content="0;url=https://huangyuan.streamlit.app/?embed=true">
+
+<style>
+  html,body{margin:0;height:100%;background:#0b1220;color:#e8eef7;
+    font-family:"Microsoft YaHei","PingFang SC",system-ui,sans-serif}
+  .wrap{height:100vh;display:flex;flex-direction:column;align-items:center;
+    justify-content:center;gap:18px}
+  .card{width:min(560px,88vw);border-radius:20px;overflow:hidden;
+    box-shadow:0 20px 70px rgba(0,0,0,.6);background:#101e37;
+    border:1px solid #2a4a72;padding:26px;text-align:center;box-sizing:border-box}
+  .card img{width:150px;margin-bottom:6px}
+  h1{font-size:28px;margin:6px 0 8px}
+  p{color:#8ea6c4;font-size:14px;margin:0 0 18px;line-height:1.6}
+  a.btn{display:inline-block;background:#38bdf8;color:#04203a;text-decoration:none;
+    padding:12px 30px;border-radius:10px;font-weight:600;font-size:16px}
+  a.btn:hover{background:#7dd3fc}
+  .feat{margin:0 0 18px;font-size:13px;color:#6f86a6;line-height:1.9}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="card">
+    <img src="cover.png" alt="电网导出数据整理">
+    <h1>电网导出数据整理</h1>
+    <p>把供电所/电网的累计读数导出表，转成逐区间电量与功率</p>
+    <div class="feat">支持 .xls / .xlsx / .csv &nbsp;·&nbsp; 自动识别表结构 &nbsp;·&nbsp; 导出 Excel</div>
+    <a class="btn" href="https://huangyuan.streamlit.app/?embed=true">进入在线整理 →</a>
+  </div>
+</div>
+<script>window.location.replace("https://huangyuan.streamlit.app/?embed=true");</script>
+</body>
+</html>
